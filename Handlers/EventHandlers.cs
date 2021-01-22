@@ -21,7 +21,7 @@ namespace ColaGoesBoom.Handlers
         {
             if(ev.State == Synapse.Api.Events.SynapseEventArguments.ItemInteractState.Finalizing && ev.CurrentItem.ItemType == ItemType.SCP207)
             {
-                if(ev.Player.PlayerEffectsController.GetEffect<Scp207>().Intensity == 5)
+                if(ev.Player.PlayerEffectsController.GetEffect<Scp207>().Intensity == Plugin.Config.scp207ExplosionAmount-1)
                 {
                     for(int i = 0; i < Plugin.Config.scp207NadeAmount; i++)
                     {
