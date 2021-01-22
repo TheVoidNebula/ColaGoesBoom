@@ -15,4 +15,4 @@ Name  | Type | Default | Description
 ------------ | ------------ | ------------- | ------------ 
 `isEnabled` | Boolean | true | Is this plugin enabled?
 `scp207ExplosionAmount` | Int | 5 | How many SCP-207 you need to drink in order to explode?
-`scp207NadeAmount` | Int | How many grenades spawn on the explosion?
+`scp207NadeAmount` | Int | 3 | How many grenades spawn on the explosion?
