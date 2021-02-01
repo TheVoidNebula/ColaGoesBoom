@@ -13,6 +13,7 @@ Haha Cola goes boom. Drink SCP-207 to explode!
 ## Config
 Name  | Type | Default | Description
 ------------ | ------------ | ------------- | ------------ 
-`isEnabled` | Boolean | true | Is this plugin enabled?
-`scp207ExplosionAmount` | Int | 5 | How many SCP-207 you need to drink in order to explode?
-`scp207NadeAmount` | Int | 3 | How many grenades spawn on the explosion?
+`IsEnabled` | Boolean | true | Is this plugin enabled?
+`Scp207ExplosionAmount` | Int | 5 | How many SCP-207 you need to drink in order to explode?
+`Scp207NadeAmount` | Int | 3 | How many grenades spawn on the explosion?
+`Scp207FuseTime` | Float | 0.75f | After how many seconds do the grenades explode after drinking the last SCP-207?
