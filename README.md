@@ -4,6 +4,7 @@ Haha Cola goes boom. Drink SCP-207 to explode!
 ## Features
 * Customize how many SCP-207 you need to drink to explode
 * Customize how many grenades spawn on the explosion
+* Customize after how many seconds the player explodes
 
 ## Installation
 1. [Install Synapse](https://github.com/SynapseSL/Synapse/wiki#hosting-guides)
