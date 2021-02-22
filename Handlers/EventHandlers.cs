@@ -25,7 +25,7 @@ namespace ColaGoesBoom.Handlers
                 {
                     for(int i = 0; i < Plugin.Config.Scp207NadeAmount; i++)
                     {
-                        Map.Get.SpawnGrenade(ev.Player.Position, Vector3.zero, Plugin.Config.Scp207FuseTime, Synapse.Api.Enum.GrenadeType.Grenade);
+                        Map.Get.SpawnGrenade(ev.Player.Position, Vector3.zero, Plugin.Config.Scp207FuseTime, Synapse.Api.Enum.GrenadeType.Grenade, ev.Player);
                     }
                 }
             }
